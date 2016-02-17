@@ -288,6 +288,8 @@ ent-v314-007:mtec1003-lab-03 student$
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
 
+ent-v314-007:mtec1003-lab-03 student$ ls
+books	logs	web
 
 
 ==========
@@ -295,7 +297,15 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
+ent-v314-007:~ student$ cd-mtec1003-lab-03
+-bash: cd-mtec1003-lab-03: command not found
+ent-v314-007:~ student$ cd mtec1003-lab-03
+ent-v314-007:mtec1003-lab-03 student$ cd books
+ent-v314-007:books student$ pwd
+/Users/student/mtec1003-lab-03/books
+ent-v314-007:books student$ ls
+other		science-fiction
+ent-v314-007:books student$ cd science-fiction
 
 
 ==========
@@ -303,6 +313,8 @@ Write the command(s) (including going home) that you used to do this below:
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+ent-v314-007:science-fiction student$ ls
+pg84.txt	pg86.txt
 
 
 
@@ -311,7 +323,15 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
-
+ent-v314-007:~ student$ cd-mtec1003-lab-03
+-bash: cd-mtec1003-lab-03: command not found
+ent-v314-007:~ student$ cd mtec1003-lab-03
+ent-v314-007:mtec1003-lab-03 student$ cd books
+ent-v314-007:books student$ pwd
+/Users/student/mtec1003-lab-03/books
+ent-v314-007:books student$ ls
+other		science-fiction
+ent-v314-007:books student$ cd science-fiction
 ==========
 OPTIONAL
 13. Immediately change back to the mtec1003-lab-03 folder with a single command using a *relative* path.
